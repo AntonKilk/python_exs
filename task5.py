@@ -1,12 +1,7 @@
-# Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+# Реализуйте алгоритм перемешивания списка.
 
-from cmath import sqrt
+import random
 
-print("Введите координаты первой точки:")
-x = int(input("X = "))
-y = int(input("Y = "))
-print("Введите координаты второй точки:")
-x1 = int(input("X = "))
-y1 = int(input("Y = "))
-result = sqrt((x-x1)**2 + (y-y1)**2)
-print(result)
+arr = ['hello', 'world', '!']
+random.shuffle(arr)
+print(arr)
